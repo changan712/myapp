@@ -1,0 +1,57 @@
+body{ background:#ddd;}
+
+input,button{outline: none;}
+
+.logo{ height: 30px;}
+
+.navbar-brand{padding: 10px;}
+
+.navbar-toggle{margin: 10px;}
+
+.navbar-header{}
+
+.carousel{margin: 54px 0 5px;  border-left: none; border-right: none; border-top:1px solid #666; border-bottom: 1px solid #666; }
+
+.carousel-inner>.item>a>img{ min-width: 100%;}
+
+.carousel-indicators{margin-bottom: 0;}
+
+.index-list .list-group-item{margin: 0; border-top-color: #fff; }
+
+.index-option{  border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; overflow: hidden; }
+
+.index-option a{ float: left; width: 50%; box-sizing: border-box; text-align: center; padding: 10px; color: #333; background:#fff;}
+
+.index-option a span{ margin: 0 1em 0 0 ;}
+
+.index-option a:hover{ background:#f0f0f0; text-decoration: none;}
+
+.index-option a:first-child{border-right: 1px solid #ccc;}
+
+.container{ max-width: 1000px; margin: 0 auto; padding: 0;}
+
+.iplist{ margin: 5px 0;}
+
+.iplist h2{font:bold 15px 'microsoft yahei'; margin: 0; height: 36px; line-height: 36px; background: #fff; padding: 0 0 0 10px; border-top:1px solid #ccc; border-bottom: 1px solid #ccc; position: relative;}
+
+.iplist h2:before,.iplist h2:after{content:''; position:absolute;width: 0; height: 0; border-color: transparent; border-style: solid;}
+
+.iplist h2:before{ bottom: -12px; left: 30px;border-width: 6px; border-top-color: #ccc; z-index: 1;}
+
+.iplist h2:after{bottom: -8px; left: 32px;border-width: 4px; border-top-color: #fff; z-index: 2;}
+
+.iplist ul{padding: 0;margin: 0;}
+
+.iplist li{ list-style: none; float: left; width: 50%; box-sizing: border-box;border-bottom: 1px solid #ccc; background:#fff; padding: 10px; overflow: hidden;}
+
+.iplist li:nth-child(even){border-left: 1px solid #ccc;}
+
+.iplist li:nth-child(odd){border-right: 1px solid #fff;}
+
+.iplist li img{ width: 100%; vertical-align: top;}
+
+.iplist li .price{color: #c00;}
+
+
+
+

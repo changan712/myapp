@@ -1,0 +1,10 @@
+<div class="top">
+    <span class="info">
+        <% if(user){ %>
+        欢迎你:<%= user.name %> <a class="exit" href="/cms/logout">退出</a>
+        <% }else{ %>
+        <a href="/cms/login">登陆</a>
+        <% }; %>
+    </span>
+    <a href="/cms" class="logo"><img class="logo" id="logo" height="30" src="/images/logo.png" alt=""></a>
+</div>

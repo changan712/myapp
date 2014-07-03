@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="scripts/sea-modules/gallery/bootstrap/3.0.0/bootstrap.css"/>
+    <link rel="stylesheet" href="css/common.css"/>
+    <title></title>
+</head>
+<body>
+<div class="con container" id="container">
+    <div id="nav-con"></div>
+    <div id="carousel-con"></div>
+    <div id="ioption-con"></div>
+    <div id="iplist-con"></div>
+
+</div>
+<script id="seajsnode" src="/scripts/sea-modules/seajs/seajs/2.2.1/sea-debug.js"></script>
+<script id="seajsnode" src="/scripts/sea-modules/seajs/seajs-text/1.0.2/seajs-text.js"></script>
+<script src="/scripts/common/sea-config.js"></script>
+<script>
+    seajs.use('/scripts/common/main', function (app) {
+        app.run();
+    });
+</script>
+</body>
+</html>
+

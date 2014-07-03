@@ -1,0 +1,50 @@
+body,html{height: 100% ;overflow: hidden;}
+
+input{ outline: none;}
+
+.container{min-height: 500px;}
+
+.reg-con{margin: 50px 100px;}
+
+.reg-con .panel-body{padding: 50px 0}
+
+.top{ height: 30px; background: #333; padding: 10px 50px; box-sizing:content-box; -moz-box-sizing: content-box; color: #eee; font-size: 12px; }
+
+.top .info{float: right;}
+
+.top .info .exit{ color: #c00; margin: 0 0 0 10px;}
+
+footer{text-align: center; padding: 20px; border-top:1px solid #ccc; font-size: 12px; color: #aaa; line-height: 2;}
+
+.toptips { position: absolute; width: 100%; opacity: 0.8;}
+
+.toptips .alert{margin: 0;}
+
+nav{  background:#1369c0; padding: 0 0 9999px ; margin:0 0 -9999px; width: 220px; float: left; color: #ddd;}
+
+nav a{color: #ddd; ;}
+
+nav a:hover{ color: #ddd;text-decoration: none; cursor: pointer}
+
+nav ul{ list-style: none;margin: 0;padding: 0; cursor: default;}
+
+nav>ul{ list-style: none; padding: 0; margin: 0 ;}
+
+nav>ul>li{border-top: 1px solid #1058a1;border-bottom: 1px  solid #197fe6; padding: 8px 0  8px  20px; font-weight: bold; }
+
+
+nav>ul>li>ul>li{font-weight: normal;}
+
+nav a{ display: block; padding: 4px 0;}
+
+nav>ul>li:first-child{ border-top: none;}
+
+nav>ul>li:last-child{ border-bottom: none;}
+
+nav>ul>li>ul{margin: 5px 0 5px 10px;}
+
+.main{ height: 100%; overflow: hidden;}
+
+.right{margin-left:240px ; padding:20px;box-sizing:content-box}
+
+.right iframe{width: 100%;}
